@@ -1,0 +1,956 @@
+/*******************/
+/**   All Pages   **/
+/*******************/
+body {
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Uchen', serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4, h5, h6, p, a, li {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+figcaption {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  height: 125px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #deb887;
+}
+
+header>div {
+  width: auto;
+  height: 110px;
+  flex-grow: 1;
+}
+
+/* Logo */
+header>div>a>img {
+  width: auto;
+  height: 50%;
+  padding-top: 30px;
+}
+
+/* Navigations */
+header>nav>ul {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+}
+
+header>nav>ul>li {
+  padding: 0px 15px;
+}
+
+header>nav>ul>li>a {
+  font-size: 19px;
+  color: #000;
+}
+
+/*******************/
+/**  1. Top Page  **/
+/*******************/
+/* Section 1 */
+/* Image */
+.index>.section-1 {
+  width: 100%;
+  height: 125vh;
+  background-image: url('../img/image-1.jpg');
+  background-size: cover;
+}
+
+.index>.section-1>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.index>.section-1>div>h1 {
+  color: #fff;
+  font-size: 6em;
+  text-align: center;
+}
+
+/* Section 2*/
+/* What is Koogle? */
+.index>.section-2 {
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+
+.index>.section-2>h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.index>.section-2>div {
+  display: flex;
+  justify-content: center;
+}
+
+.index>.section-2>div>div:nth-child(2)>p {
+  text-align: center;
+}
+
+/* Section 3 */
+/* CM Video */
+.index>.section-3 {
+  margin: 30px 0px;
+  padding: 30px 0px 40px 0px;
+  background-color: #ffff99;
+}
+
+.index>.section-3>div {
+  text-align: center;
+}
+
+.index>.section-3>div>iframe.youtube-link {
+  border: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 560px;
+  height: 315px;
+}
+
+/* Section 4 */
+/* How Koogle is Made */
+.index>.section-4 {
+  margin: 30px 0px;
+  padding: 10px 0px 40px 0px;
+}
+
+.index>.section-4>div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.index>.section-4>div:nth-child(2)>div:nth-child(1),
+.index>.section-4>div:nth-child(2)>div:nth-child(2),
+.index>.section-4>div:nth-child(2)>div:nth-child(3),
+.index>.section-4>div:nth-child(2)>div:nth-child(4) {
+  width: 22%;
+  margin: 0 1%;
+}
+
+.index>.section-4>div:nth-child(2)>div:nth-child(1)>div:nth-child(1),
+.index>.section-4>div:nth-child(2)>div:nth-child(2)>div:nth-child(1),
+.index>.section-4>div:nth-child(2)>div:nth-child(3)>div:nth-child(1),
+.index>.section-4>div:nth-child(2)>div:nth-child(4)>div:nth-child(1) {
+  width: auto;
+  height: auto;
+}
+
+.index>.section-4>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>p,
+.index>.section-4>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>p,
+.index>.section-4>div:nth-child(2)>div:nth-child(3)>div:nth-child(1)>p,
+.index>.section-4>div:nth-child(2)>div:nth-child(4)>div:nth-child(1)>p {
+  line-height: 1.5;
+}
+
+.index>.section-4>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>figure,
+.index>.section-4>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>figure,
+.index>.section-4>div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>figure,
+.index>.section-4>div:nth-child(2)>div:nth-child(4)>div:nth-child(2)>figure {
+  width: 90%;
+  margin-left: 18px;
+  height: auto;
+}
+
+.index>.section-4>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>figure>img,
+.index>.section-4>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>figure>img,
+.index>.section-4>div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>figure>img,
+.index>.section-4>div:nth-child(2)>div:nth-child(4)>div:nth-child(2)>figure>img {
+  width: 100%;
+  height: auto;
+}
+
+/*******************/
+/**  2. About Us  **/
+/*******************/
+/* Section 1 */
+/* Image */
+.about>.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/founders.jpg');
+  background-size: cover;
+}
+
+.about>.section-1>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about>.section-1>div>h1 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+}
+
+/* Section 2 */
+/* Our History */
+.about>.section-2 {
+  margin: 30px 0px;
+  padding: 30px 0px 40px 0px;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.about>.section-2>div:nth-child(2) {
+  width: 96%;
+  max-width: 1100px;
+  margin: 30px auto;
+  border: 1px solid #eeeeee;
+  background-color: #ffffde;
+}
+
+.about>.section-2>div:nth-child(2)>ul {
+  padding: 40px 0px;
+}
+
+.about>.section-2>div:nth-child(2)>ul>li {
+  display: flex;
+  line-height: 1.5;
+  /* Character spacing */
+  font-size: 18px;
+}
+
+/* Year */
+.about>.section-2>div:nth-child(2)>ul>li>div:nth-child(1) {
+  width: 6%;
+  padding-left: 20px;
+  margin-right: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Description */
+.about>.section-2>div:nth-child(2)>ul>li>div:nth-child(2) {
+  position: relative;
+  /* Position relative to its normal position */
+  width: 80%;
+  padding: 0px 20px 60px 30px;
+  border-left: 1px solid #aaaaaa;
+  /* Draw a line to the left of the contents (between the years and the contents) */
+}
+
+/* Round icons on the time line */
+.about>.section-2>div:nth-child(2)>ul>li>div:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  /* Position relative to the nearest positioned ancestor */
+  top: 0;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #d10051;
+  border-radius: 10px;
+}
+
+/* Section 3 */
+/* Join Our Team */
+.about>.section-3 {
+  margin: 30px 0px;
+  padding: 30px 0px 40px 0px;
+  text-align: center;
+}
+
+.about>.section-3>div:nth-child(2)>a>img {
+  width: 60%;
+  height: auto;
+}
+
+.about>.section-3>div:nth-child(3) {
+  width: 80%;
+  padding: 20px 0px 40px 0px;
+  /* Center-aligned */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about>.section-3>div:nth-child(3)>h3 {
+  margin-bottom: 20px;
+}
+
+.about>.section-3>div:nth-child(3)>p {
+  margin: 0px;
+  line-height: 1.5;
+}
+
+.about>.section-3>div:nth-child(4)>.button {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #d10051;
+  border-radius: 100vh;
+  border-color: #d10051;
+  opacity: .5;
+}
+
+/* When the cursor hovers over a button */
+.about>.section-3>div:nth-child(4)>.button:hover {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #d10051;
+  border-radius: 100vh;
+  border-color: #d10051;
+  opacity: .9;
+}
+
+/*******************/
+/**  3. Product   **/
+/*******************/
+/* Section 1 */
+/* Image */
+.product>.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/image-4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product>.section-1>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.product>.section-1>div>h1 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+}
+
+/* Section 2 */
+/* Our Products */
+.product>.section-2 {
+  margin: 30px 0px;
+  padding: 30px 0px 40px 0px;
+}
+
+.product>.section-2>div>h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.product>.section-2>div>p {
+  text-align: center;
+}
+
+.product>.section-2>div:nth-child(2) {
+  margin: 5%;
+}
+
+/* Flavor Title & Description + Image */
+.product>.section-2>div:nth-child(2)>div:nth-child(1),
+.product>.section-2>div:nth-child(2)>div:nth-child(2),
+.product>.section-2>div:nth-child(2)>div:nth-child(3),
+.product>.section-2>div:nth-child(2)>div:nth-child(4) {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Chocolate and Banana */
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(1),
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(1) {
+  order: 2;
+}
+
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(2),
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(2) {
+  order: 1;
+}
+
+/* Flavor Title and Description */
+.product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(1),
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(1),
+.product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(1),
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(1) {
+  width: 40%;
+}
+
+/* Flavor Title */
+/* All Flavors */
+.product>.section-2>div:nth-child(2)>div>div:nth-child(1)>div:nth-child(1)>h3 {
+  position: relative;
+  margin-top: 75px;
+  margin-bottom: 5px;
+  padding-bottom: 1px;
+  background-repeat: no-repeat;
+  background-size: 45% 0.25em;
+  background-position: bottom;
+  font-weight: bold;
+  font-size: 26px;
+  color: #353535;
+}
+
+/* Diagonal stripes (Angle - 90 degrees, Repeat white color and transparency every 3px)
+/* Vanilla */
+.product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>h3 {
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #f3e5ab 3px 6px);
+}
+
+/* Chocolate */
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>h3 {
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #7b3f00 3px 6px);
+}
+
+/* Cinnamon */
+.product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(1)>div:nth-child(1)>h3 {
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #d2691e 3px 6px);
+}
+
+/* Banana */
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(1)>div:nth-child(1)>h3 {
+  background-image: repeating-linear-gradient(90deg, transparent 0 3px, #ffe135 3px 6px);
+}
+
+/* Description */
+.product>.section-2>div:nth-child(2)>div>div:nth-child(1)>div:nth-child(2) {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 75px;
+  line-height: 1.5;
+}
+
+/* Image */
+.product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(2),
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(2),
+.product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(2),
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(2) {
+  width: 500px;
+  height: auto;
+}
+
+.product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>figure,
+.product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>figure,
+.product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>figure,
+.product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(2)>figure {
+  width: 100%;
+  margin: 0px 18px;
+}
+
+/* Section 3 */
+/* Koogle Recipes */
+.product>.section-3 {
+  margin: 30px 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: #ffff99;
+}
+
+.product>.section-3>div>h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.product>.section-3>div>p {
+  text-align: center;
+}
+
+/* Slideshow */
+.product>.section-3>div:nth-child(2).slideshow {
+  position: relative;
+  width: auto;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.product>.section-3>div:nth-child(2).slideshow>ul.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10000px;
+  /* Prepare enough space to combine slides horizontally to make one long image */
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.product>.section-3>div:nth-child(2).slideshow>ul.slide>li {
+  float: left;
+  /* Combine slides horizontally to make one long image */
+  width: auto;
+  height: 375px;
+}
+
+.product>.section-3>div:nth-child(2).slideshow>ul.slide>li>img {
+  height: 80%;
+  margin: 100px 50px;
+}
+
+/* Prev and Next */
+.product>.section-3>div:nth-child(2)>a {
+  display: block;
+  height: 50px;
+  width: 30px;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  opacity: .5;
+}
+
+.product>.section-3>div:nth-child(2)>a:hover {
+  opacity: .8;
+}
+
+/* Prev */
+.product>.section-3>div:nth-child(2)>a.prev {
+  position: absolute;
+  left: 0;
+  top: 225px;
+}
+
+/* Next */
+.product>.section-3>div:nth-child(2)>a.next {
+  position: absolute;
+  right: 0;
+  top: 225px;
+}
+
+/* Section 4 */
+/* Koogle Recipe Idea Campaign */
+.product>.section-4 {
+  margin: 30px 0px;
+  padding: 30px 0px 40px 0px;
+  text-align: center;
+}
+
+.product>.section-4>div>h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.product>.section-4>div>p {
+  text-align: center;
+}
+
+/* Images */
+.product>.section-4>div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.product>.section-4>div:nth-child(2)>div {
+  margin: 20px;
+}
+
+.product>.section-4>div:nth-child(2)>div:nth-child(1)>figure>img,
+.product>.section-4>div:nth-child(2)>div:nth-child(2)>figure>img {
+  height: 400px;
+  width: auto;
+}
+
+/* Button */
+.product>.section-4>div:nth-child(3)>.button {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #ff6700;
+  border-radius: 100vh;
+  border-color: #ff6700;
+  opacity: .5;
+}
+
+.product>.section-4>div:nth-child(3)>.button:hover {
+  opacity: .9;
+}
+
+/*********************/
+/**  4. Contact Us  **/
+/*********************/
+/* Section 1 */
+/* Image */
+.contact>.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/customer-support.jpg');
+  background-size: cover;
+}
+
+.contact>.section-1>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact>.section-1>div>h1 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+}
+
+/* Section 2 */
+/* Description */
+.contact>.section-2 {
+  margin: 15px 0px;
+}
+
+.contact>.section-2>div {
+  padding-top: 20px;
+}
+
+.contact>.section-2>div>p {
+  text-align: center;
+}
+
+/* Section 3 */
+/* Form */
+.contact>.section-3>div {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact>.section-3>div>form>div {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact>.section-3>div>form>div>div>.item,
+.contact>.section-3>div>form>div>.item,
+.contact>.section-3>div>form>div>p {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Name (First & Last Name) */
+.contact>.section-3>div>form>div>div {
+  width: 40%;
+  height: auto;
+}
+
+.contact>.section-3>div>form>div>div:nth-child(2) {
+  margin-left: 50px;
+}
+
+.contact>.section-3>div>form>div>div>label>span.item-required,
+.contact>.section-3>div>form>div>label>span.item-required {
+  border-radius: 6px;
+  margin: -10px 0px 10px 8px;
+  padding: 3px 18px 3px 10px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #ea7387;
+  color: #fff;
+  font-size: 14px;
+}
+
+.contact>.section-3>div>form>div>div>input.item-content,
+.contact>.section-3>div>form>div>input.item-content,
+.contact>.section-3>div>form>div:nth-child(7)>textarea.item-content {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  flex: 1;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.contact>.section-3>div>form>div:nth-child(7)>textarea.item-content {
+  height: 200px;
+}
+
+.contact>.section-3>div>form>div>label.radio-item {
+  margin-right: 15px;
+}
+
+/* Submit Button */
+.contact>.section-3>div>form>div:nth-child(8)>.submit-button {
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 180px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  opacity: .5;
+}
+
+.contact>.section-3>div>form>div:nth-child(8)>.submit-button:hover {
+  background: #5bc8ac;
+  opacity: .9;
+}
+
+/* All pages */
+/* Footer */
+footer {
+  background-color: #deb887;
+  padding: 2%;
+  margin-top: 30px;
+}
+
+/* Navigations */
+footer>nav>ul {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer>nav>ul>li {
+  padding: 0px 30px;
+}
+
+footer>nav>ul>li>a {
+  color: #000;
+}
+
+/***************************/
+/**   Responsive Design   **/
+/***************************/
+/* Smaller than 1024px */
+@media screen and (max-width: 1024px) {
+
+  /* Product */
+  /* Koogle Recipe Idea Campaign */
+  /* Images */
+  .product>.section-4>div:nth-child(2) {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+/* Smaller tnan 768px */
+@media screen and (max-width: 768px) {
+
+  /* All Pages */
+  /* Header */
+  header {
+    height: 160px;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  header>nav>ul {
+    padding: 0px;
+  }
+
+  /* Top */
+  /* How Koogle is Made */
+  .index>.section-4>div:nth-child(2) {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .index>.section-4>div:nth-child(2)>div:nth-child(1),
+  .index>.section-4>div:nth-child(2)>div:nth-child(2),
+  .index>.section-4>div:nth-child(2)>div:nth-child(3),
+  .index>.section-4>div:nth-child(2)>div:nth-child(4) {
+    width: 100%;
+    margin: 2% 5%;
+  }
+
+  /* About Us */
+  /* History > Year */
+  .about>.section-2>div:nth-child(2)>ul>li>div:nth-child(1) {
+    margin-right: 30px;
+  }
+
+  /* Product */
+  /* Product > Flavor Title & Description + Image */
+  .product>.section-2>div:nth-child(2)>div:nth-child(1),
+  .product>.section-2>div:nth-child(2)>div:nth-child(2),
+  .product>.section-2>div:nth-child(2)>div:nth-child(3),
+  .product>.section-2>div:nth-child(2)>div:nth-child(4) {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Flavor Title and Description */
+  .product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(1),
+  .product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(1),
+  .product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(1),
+  .product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(1) {
+    width: 100%;
+  }
+
+  .product>.section-2>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>figure,
+  .product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>figure,
+  .product>.section-2>div:nth-child(2)>div:nth-child(3)>div:nth-child(2)>figure,
+  .product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(2)>figure {
+    width: 100%;
+  }
+
+  /* Chocolate and Banana */
+  .product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(1),
+  .product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(1) {
+    order: 1;
+  }
+
+  .product>.section-2>div:nth-child(2)>div:nth-child(2)>div:nth-child(2),
+  .product>.section-2>div:nth-child(2)>div:nth-child(4)>div:nth-child(2) {
+    order: 2;
+  }
+
+  /* Koogle Recipe Idea Campaign*/
+  .product>.section-4>div:nth-child(2)>div:nth-child(1)>figure>img,
+  .product>.section-4>div:nth-child(2)>div:nth-child(2)>figure>img {
+    height: 300px;
+    width: auto;
+  }
+
+  /* All Pages */
+  /* Footer */
+  footer>nav>ul {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  /* Top */
+  /* Youtube */
+  .index>.section-3>div>iframe.youtube-link {
+    border: 0;
+    background-color: transparent;
+    overflow: hidden;
+    width: 448px;
+    height: 252px;
+  }
+
+  /* Product */
+  /* Koogle Recipes */
+  .product>.section-3>div:nth-child(2).slideshow>ul.slide>li {
+    float: left;
+    /* Combine slides horizontally to make one long image */
+    width: auto;
+    height: 320px;
+  }
+
+  .product>.section-3>div:nth-child(2).slideshow>ul.slide>li>img {
+    height: 80%;
+    margin: 100px 5px;
+  }
+}
+
+/* Smaller than 480px */
+@media screen and (max-width: 480px) {
+
+  /* Contact */
+  /* Form */
+  .contact>.section-3>div {
+    margin-top: 40px;
+  }
+
+  /* Each Form Item */
+  .contact>.section-3>div>div {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .contact>.section-3>div>form>div>div>.item,
+  .contact>.section-3>div>form>div>.item,
+  .contact>.section-3>div>form>div>p {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .contact>.section-3>div>form>div>div>label>span.item-required,
+  .contact>.section-3>div>form>div>label>span.item-required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+
+  /* Name, Phone, and Email */
+  .contact>.section-3>div>form>div>div>input.item-content,
+  .contact>.section-3>div>form>div>input.item-content {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+
+  /* Message */
+  .contact>.section-3>div>form>div:nth-child(7)>textarea.item-content {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+
+  /* Submit Button */
+  .contact>.section-3>div>form>div:nth-child(8)>.submit-button {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
